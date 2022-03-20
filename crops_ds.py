@@ -1,5 +1,5 @@
-import pandas
-data = pandas.read_csv('crops_usa.csv')
+import pandas as pd
+data = pd.read_csv('crops_usa.csv')
 
 states_unique = []
 years_unique = []
